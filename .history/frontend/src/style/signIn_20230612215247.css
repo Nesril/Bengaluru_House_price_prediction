@@ -1,0 +1,12 @@
+.signIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    text-align: center;
+    height: 439px;
+    overflow: hidden;
+}
+.signIn h2{
+    margin-bottom: 20px;
+}

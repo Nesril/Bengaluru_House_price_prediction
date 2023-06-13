@@ -1,0 +1,19 @@
+.carousel {
+    position: relative;
+    width:100%;
+    margin: 0 auto;
+    min-height: 100vh;
+    column-gap: 3rem;
+    padding-block: min(20vh, 3rem);
+    background-color: rgba(0, 0, 0, 0.692);
+    color: white;
+   padding: 0 50px 0 50px;
+
+}
+
+@media screen and (min-width: 48rem) {
+    .carousel {
+        display: flex;
+        align-items: center;
+    }
+}

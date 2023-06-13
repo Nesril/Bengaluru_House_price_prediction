@@ -1,0 +1,9 @@
+.footer{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer img{
+    width: 120px;
+}

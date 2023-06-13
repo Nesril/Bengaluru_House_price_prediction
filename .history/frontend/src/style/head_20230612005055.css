@@ -1,0 +1,11 @@
+.header{
+    text-align: center;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-left{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,16 @@
+.footer{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+.footer img{
+    width: 120px;
+}
+.footer-icon-medium{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}

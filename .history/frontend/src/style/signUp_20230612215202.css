@@ -1,0 +1,11 @@
+.signUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    text-align: center;
+     margin-bottom: 20px;
+}
+.signUp-rigthtChild h2{
+margin-bottom: 20px;
+}

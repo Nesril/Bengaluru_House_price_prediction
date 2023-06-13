@@ -1,0 +1,25 @@
+.header{
+    text-align: center;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10% 10px 10%;
+}
+.header-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+}
+.header-left button{
+    background: transparent;
+    color: white;
+    transition: 0.2s;
+}
+
+.header-left button:hover{
+    background: #00a4aa;
+    color: black;
+    border: none;
+}

@@ -1,0 +1,8 @@
+.signIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    text-align: center;
+    height: 500px;
+}

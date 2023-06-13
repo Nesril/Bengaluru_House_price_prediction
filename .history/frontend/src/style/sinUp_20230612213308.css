@@ -1,0 +1,87 @@
+.signUp{
+    color: white;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+.minimumSignUpMessage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.minimumSignUpMessage .signUp-leftChild{
+   display: none;
+}
+
+.signUp-leftChild{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    background: linear-gradient(-45deg, #2b2020e8, #001222, #052936e7, #163d3ff8);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite alternate;
+    color: white;
+    transition: 0.3s;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.signUp-leftChild-imageText{
+    margin-top: -120px;
+}
+.signUp-leftChild-imageText img{
+    margin-bottom: -50px;
+}
+.signUp a{
+    color: rgba(46, 81, 87, 0.979);
+}
+
+.signUp form label{
+    color: rgba(46, 81, 87, 0.979);
+    font-size: 12px;
+}
+.signUp-rigthtChild{
+    padding-top: 20px;
+    color: rgba(46, 81, 87, 0.979);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+     height: 100vh;
+}
+.minimumSignUpMessage .signUp-rigthtChild{
+    width: 100%;
+    color: white;
+    background: linear-gradient(-45deg, #080707fd, #001222, #052936e7, #163d3ff8);
+
+}
+.signUp-rightChild-form{
+    margin-top: 10px;
+}
+.minimumSignUpMessage .signUp-rightChild-form{
+    padding: 30px 20% 10px 20%;
+    background-color: rgba(255, 255, 255, 0.363);
+
+
+}
+@media(max-width:900px){
+    .signUp-leftChild{
+        font-size: 30px;
+    }
+}
+@media(max-width:700px){
+   
+}

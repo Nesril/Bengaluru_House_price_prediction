@@ -1,0 +1,14 @@
+.secon_half{
+    margin-top: 50px;
+    background-color: rgba(221, 228, 235, 0.959);
+    min-height: 110px;
+}
+.secon_half-form{
+    margin-left: 20%;
+}
+.secon_half-form-upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}

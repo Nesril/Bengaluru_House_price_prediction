@@ -1,0 +1,33 @@
+.secon_half{
+    margin-top: 50px;
+    background-color: rgba(55, 56, 56, 1.959);
+    min-height: 110px;
+    color: white;
+    padding: 20px 0 ;
+}
+.secon_half h3{
+    color: white;
+    text-align: center;
+}
+.secon_half h4{
+    color: rgb(100, 131, 177);
+}
+.secon_half-form{
+    padding: 20px 10% 20px 10%;
+    text-align: center;
+}
+.secon_half-form-upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   padding-top:20px ;
+   padding-bottom:20px ;
+}
+.secon_half-form-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top:20px;
+}
